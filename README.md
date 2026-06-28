@@ -7,10 +7,15 @@ Windows 反射型 DLL 注入研究与实现。
 
 Reflective/
 ├── Reflective.c          # 核心反射加载器：手动 PE 映射
+
 ├── Header.h              # PE 结构定义与函数原型
+
 ├── dllmain.cpp           # DLL 入口
+
 ├── framework.h           # 预编译头依赖
+
 ├── Reflective.sln        # Visual Studio 解决方案
+
 └── .gitignore            # 忽略编译产物
 
 ## 技术要点
